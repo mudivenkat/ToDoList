@@ -1,0 +1,52 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #457b90;
+}
+h1 {
+  text-align: center;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputContainer > input {
+  width: 200px;
+  height: 30px;
+  font-size: 1.2rem;
+}
+.inputContainer > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  font: 1.5rem;
+  background-color: #e63946;
+  margin-top: 10px;
+}
+.TaskContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  align-items: center;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1faef;
+  align-items: center;
+  width: 500px;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  padding: 0px 5px;
+  margin-top: 15px;
+}
+.actions > button {
+  width: 75px;
+  height: 30px;
+  border-radius: 10px;
+  font-size: 1.05rem;
+  background-color: red;
+  color: white;
+  margin-left: 10px;
+}
